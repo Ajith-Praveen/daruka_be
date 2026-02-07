@@ -34,7 +34,7 @@ try:
 except Exception as e:
     print("[BACKEND] Custom model not found, loading yolov8n.pt")
     print(e)
-    model = YOLO("yolov8n.pt")
+    model = YOLO("fire-yolov8.pt")
 
 # --------------------------------------------------
 # Routes
